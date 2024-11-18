@@ -4,6 +4,7 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import CourseItem from './components/course/CourseItem';
 import CourseListCard from './components/course/CourseListCard';
+import Library from './components/step01/Library';
 
 
 
@@ -43,9 +44,7 @@ function Main() {
 // class 대신 className 사용한다.
 function App() {
   return (
-    <main>
-        <CourseListCard />
-    </main>
+      <CourseListCard />
   );
 }
 
