@@ -1,4 +1,137 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
+  color: #282828;
+}
+
+main {
+  height: 100vh;
+  background-color: #DAECFD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ */
+
+/* Card /
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 500px;
+}
+
+.cardheader {
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 460px;
+}
+
+.cardbody {
+  padding-top: 1.5rem;
+}
+
+/ Course List /
+.courses {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+/ Course /
+.course {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.courseimg {
+  border-radius: 6px;
+  width: 120px;
+}
+
+.coursetitle {
+  font-weight: 500;
+}
+
+.coursebody {
+  flex-grow: 1;
+}
+
+.coursedescription {
+  color: #777777;
+  font-weight: 300;
+  margin-top: .4rem;
+}
+
+.course__icons {
+  display: flex;
+  align-items: center;
+  column-gap: 0.6rem;
+}
+
+/ Button /
+.btn {
+  background: none;
+  border: none;
+  / Remove borders /
+  font-size: 20px;
+  / Set a font size /
+  cursor: pointer;
+  / Mouse pointer on hover 
+}*/
+
+.btn>.fa-heart {
+  color: red;
+}
+
+.btn>.fa-link {
+  color: #393939;
+}
+
+*/ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +143,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn_img {
+  width: 20px;
+  color: red;
 }
